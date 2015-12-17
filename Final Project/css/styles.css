@@ -1,0 +1,454 @@
+body{
+	width: 100%;
+	background-color: #00D2FF;
+	margin: 0;
+}
+header {
+	position: fixed;
+	background-color: #5E00FA;
+	height: 90px;
+	width: 100%;
+	z-index: 3000;
+}
+header:hover{
+	background-color: #F2006F;
+}
+#left{
+	float: left;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#left h1{
+	letter-spacing: 15px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 30px;
+	font-weight: bolder;
+}
+#left a{text-decoration: none; color: white;}
+
+#right{
+	float: right;
+	list-style: none;
+	padding: 35px;
+	text-transform: uppercase;
+}
+#right a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 15px;
+}
+#right a:hover{
+	background-color: white;
+	color: #F2006F;
+	font-size: 150%;
+}
+
+/*Index.html page below*/
+.cycle-slideshow {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+.cycle-slideshow img{
+	width: 100%;
+	height: 100%;
+
+}
+.cycle-prev, .cycle-next {
+	font-size: 200%;
+	color: blue;
+}
+
+#about_bottom{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #65CBFD;
+	
+}
+.bottom_1 .bottom_2 .bottom_3{
+	width: 100%;
+	height: 100%;
+}
+
+.about_width {
+	width: 80%;
+	margin: 0 auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	box-shadow: 0px 0px 70px 0px #510000;
+}
+
+.bottom_1 img {
+	width: 100%;
+}
+.bottom_2 img {
+	width: 100%;
+}
+.bottom_3 img {
+	width: 100%;
+}
+.bottom_1 .bottom_2 .bottom_3, a{
+	text-decoration: none;
+}
+.bottom_1 h1{
+	text-align: center;
+	background-color: #C322FF;
+	font-size: 35px;
+	color: #780058;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: helvetica;
+}
+.bottom_2 h1 {
+	text-align: center;
+	background-color: #C322FF;
+	font-size: 35px;
+	color: #780058;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: helvetica;
+}
+.bottom_3 h1 {
+	text-align: center;
+	background-color: #C322FF;
+	font-size: 35px;
+	color: #780058;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: helvetica;
+}
+.bottom_1 h1:hover{
+	background-color: #FF0F0F;
+	color: #610000;
+	text-decoration: underline;
+}
+.bottom_2 h1:hover{
+	background-color: #E0FD1B;
+	color: #610000;
+	text-decoration: underline;
+}
+.bottom_3 h1:hover{
+	background-color: #42F858;
+	color: #610000;
+	text-decoration: underline;
+}
+/*End of Index.html page******************************/
+
+
+/*About.Me page below*/
+
+video{
+	width: 100%;
+	opacity: 0.7;
+	margin-top: 79px;
+	position: relative;
+}
+#aboutme h3{
+	text-align: center;
+	font-size: 35px;
+	border-top: purple double;
+	border-bottom: purple double;
+	color: #BF4FFF;
+	background: transparent;
+
+}
+#aboutme {
+	height: 100%;
+	width: 60%;
+	font-size: 28px;
+	margin: 0 auto;
+	padding: 52px;
+	top: 100vh;
+}
+#aboutme p {
+	letter-spacing: 1px;
+	text-align: justify;
+	
+}
+
+/*End of About.Me page*************************************/
+
+
+
+/*Travel.html page below*/
+#travel {
+	width: 100%;
+	position: relative;
+	
+}
+#travel img{
+	width: 50%;
+	height: 750px;
+	position: relative;
+	margin-left: 25%;
+}
+#travel p {
+	position: relative;
+	width: 50%;
+	font-family: helvetica;
+	font-size: 25px;
+	margin: 0 auto;	
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.cycle-slideshow img{
+	height: 100%;
+}
+.body {
+	background-color: #FFB6DF;
+	width: 80%;
+	margin: 0 auto;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	box-shadow: 0px 0px 60px 0px #DF0000;
+}
+/*End of Travel.html page*****************************/
+
+
+/*Interest page below*/
+#container{
+	width: 100%; 
+	height: 100%;
+}
+.container {
+	width: 80%;
+	height: 100%;
+	box-shadow: 0px 0px 50px 0px #EB1919;
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: #D6F5EE;
+}
+.container video{
+	opacity: 1;
+	top:10px;
+	margin-bottom: 50px;
+	clear: both;
+}
+#container h6{
+	font-style: oblique;
+	font-size: 29px;
+	color: #F80969;
+}
+#container p, h6{
+	font-size: 25px;
+	padding: 25px;
+	color: #A512F9;
+	text-align: center;
+}
+/*End of Interest Page********************************/
+
+
+/*Footer in motion*/
+#background {
+	width: 100%;
+	clear: both;
+	height: 110px;
+	background: url("../img/background.png") repeat 5% 5%;
+	position: relative;
+	top: 10; left: 0; right: 0; bottom: 0;
+	
+}
+#background h2{
+	color: #C684EC;
+	text-align: center;
+	padding: 40px;
+	font-size: 25px;
+	letter-spacing: 20px;
+}
+
+#background a{ text-decoration: none;}
+
+#midground {
+	clear: both;
+	background: url("../img/midground.png") repeat 20% 20%;
+	position: relative;
+	top: 10; left: 0; right: 0; bottom: 0;
+	z-index: 200;
+}
+
+#foreground {
+	clear: both;
+	background: url("../img/foreground.png") repeat 90% 110%;
+	position: relative;
+	top: 10; left: 0; right: 0; bottom: 0;
+	z-index: 300;
+}
+/*End of Footer in motion*************************/
+
+@media screen and (max-width: 1024px) {
+    body {
+    	background-color: lightgreen; 
+    	width:100%;
+    }
+    #right {
+    	margin-top: 15px;
+    	padding: 15px;
+    }
+    #right a{
+    	margin-top: 100px;
+    	font-size: 12px;
+    }
+    #left h1{
+    	display: none;
+    }
+    header {
+    	height: 80px;
+    }
+    #bottom-wrapper{
+    	height: 100px;
+    }
+    .security img{
+    	width: 50px; 
+    	padding: 25px; 
+    	margin: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+	body {
+		background-color: #EBB250;
+	}
+	#aboutme {
+		border: 1px solid black;
+	}
+	#aboutme h3,p{
+		font-size: 15px;
+	}
+	#right {
+		margin-top: 0px;
+	}
+	#right a{
+		font-size: 12px;
+		display: table-row;
+		font-family: sans-serif;
+	}
+	#right a:hover{
+		color: green;
+		font-size: 12px;
+		border-radius: 10px;
+	}
+	#background h2 {
+		font-size: 12px;
+	}
+	.cycle-slideshow {
+		top: 60px;
+	}
+	#about_bottom{
+		margin-top: 60px;
+	}
+	.bottom_1 h1{
+		font-size: 12px;
+	}
+	.bottom_2 h1{
+		font-size: 12px;
+	}
+	.bottom_3 h1{
+		font-size: 12px;
+	}
+	#travel p{
+		font-size: 15px;
+		top: 50px;
+	}
+	#travel img {
+		width: 50%;
+		height: 300px;
+		top: 50px;
+	}
+	.about_width{
+		border: none;
+	}
+	.body {
+		width: 100%;
+		border: none;
+	}
+	.container {
+		border: none;
+		width: 100%;
+	}
+	#container p{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	body {
+		background-color: #B2E472;
+	}
+	.cycle-slideshow {
+		top: 60px;
+	}
+	#about_bottom{
+		margin-top: 60px;
+	}
+	header {
+		height: 80px;
+	}
+	#aboutme {
+		border: 1px solid black;
+	}
+	#aboutme h3,p{
+		font-size: 10px;
+	}
+	
+	#right a {
+		font-size: 12px;
+		color: white;
+		display: table-row-group;
+	}
+	#right a:hover{
+		color: green;
+		font-size: 12px;
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+	#background h2 {
+		font-size: 12px;
+	}
+	.bottom_1 h1{
+		font-size: 12px;
+	}
+	.bottom_2 h1{
+		font-size: 12px;
+	}
+	.bottom_3 h1{
+		font-size: 12px;
+	}
+	#travel img{
+		height: 400px;
+	}
+	#travel p{
+		font-size: 10px;
+		top: 50px;
+	}
+	#travel img {
+		width: 50%;
+		height: 200px;
+		top: 50px;
+	}
+	.about_width{
+		border: none;
+	}
+	.body {
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+	.container {
+		border: none;
+		width: 100%;
+	}
+	#container p{
+		font-size: 12px;
+	}
+}
